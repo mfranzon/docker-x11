@@ -14,8 +14,6 @@ RUN apt-get update && apt-get install -y \
     sudo \
     && rm -rf /var/lib/apt/lists/*
 
-# Set the working directory
-
 # Copy the application files to the container
 # COPY app.py .
 
